@@ -32,6 +32,7 @@ class Trading extends PluginBase implements Listener{
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
+		$this->getServer()->getLogger()->notice("Please Wait... Repcies makeing♡");
 	}
 
 	public function makeRecipe(Item $buyA, Item $sell, Item $buyB = null){
