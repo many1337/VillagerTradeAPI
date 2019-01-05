@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/many1337/VillagerTradeAPI
+branches:
+- master
+projects:
+  VillagerTradeAPI:
+    path: ""
+...
