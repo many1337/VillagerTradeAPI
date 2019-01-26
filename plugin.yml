@@ -1,5 +1,6 @@
 name: VillageTradeAPI
 main: many1337\Trading
 author: many1337
+api: 3.5.5
 description: VillageTradeAPI plugin for Altay Software
 version: 1.0
