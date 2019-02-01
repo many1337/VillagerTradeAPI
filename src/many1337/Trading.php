@@ -128,8 +128,8 @@ class Trading extends PluginBase implements Listener{
 			}
 		}
 		if($pk instanceof InventoryTransactionPacket){
-			if($pk->transactionData->transactionType === InventoryTransactionPacket::TYPE_USE_ITEM_ON_ENTITY && isset($pk->transactionData->entityRuntimeId)){
-				$entity = $player->level->getEntity($pk->transactionData->entityRuntimeId);
+			if($pk->transactionType === InventoryTransactionPacket::TYPE_USE_ITEM_ON_ENTITY && isset($pk->trData->entityRuntimeId)){
+				$entity = $player->level->getEntity($pk->trData->entityRuntimeId);
 				if($entity instanceof Villager){
 					//Open menu
 				}
