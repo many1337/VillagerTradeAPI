@@ -1,6 +1,6 @@
-# VillagerTradeAPI
+# VillagerTrade
 
-VillageTradeAPI plugin for Altay/PMMP Software 1.2-1.8
+VillageTrade for PMMP Software
 
 # API
 
